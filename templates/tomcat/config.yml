@@ -1,6 +1,6 @@
-name: Catalog Demo
+name: Tomcat 
 description: |
-  Demo nginx service
+  Demo tomcat service with a lb
 version: 0.1
 category: Demo
 maintainer: community

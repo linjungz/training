@@ -1,7 +1,7 @@
 .catalog:
-  name: Demo
+  name: TomcatDemo
   description: |
-    (Training) Catalog Demo
+    (Training) Catalog Demo for a tomcat and lb
   version: 0.1
   minimum_rancher_version: v1.0.0
   maintainer: "Rancher-CN <rancher-cn@outlook.com>"
@@ -23,7 +23,7 @@
 
 version: '2'
 services:
-  nginx:
+  tomcat:
     scale: $scale_number
     start_on_create: true
   lb:
