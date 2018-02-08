@@ -9,7 +9,7 @@
     - variable: "scale_number"
       description: |
         Scale Number 
-      label: "Nginx Scale Number:"
+      label: "Tomcat Scale Number:"
       default: "1"
       required: true
       type: "int"
@@ -35,7 +35,7 @@ services:
       - hostname: ''
         priority: 1
         protocol: tcp
-        service: nginx
+        service: tomcat
         source_port: $ext_port
         target_port: 80
     health_check:
